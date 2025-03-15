@@ -13,7 +13,7 @@ function ProductCard({product,flex,renderDesc,renderAdd}){
     
       const {image,title,id,rating, price,description} = product;
 
-      const [,dispatch]=useContext(DataContext)
+      const [,dispatch] = useContext(DataContext)
     // console.log(product)
       const addToCart=()=>{
         dispatch({

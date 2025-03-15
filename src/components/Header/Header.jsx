@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom';
 import { DataContext } from '../DataProvider/Dataprovider';
 import { auth } from '../Utility/Firebase';
 const Header = () => {
-  const [state ] = useContext(DataContext);
+   const [state] = useContext(DataContext);
    const user = state?.user;
-    const basket = state.basket;
+   const basket = state.basket;
     
 
   return (
@@ -19,7 +19,7 @@ const Header = () => {
         {/* logo */}
         <div className={classes.logo_container}>
           <Link to="#">
-            <img src="https://pngimg.com/d/amazon_PNG11.png" alt="" />
+            <img src="https://pngimg.com/d/amazon_PNG11.png" alt="amazon logo" />
           </Link>
           {/* delivery */}
           <div className={classes.delivery}>
@@ -44,7 +44,7 @@ const Header = () => {
         <div className={classes.order_container}>
           <Link to="" className={classes.language}>
             <img
-              src="https://img.freepik.com/free-photo/united-states-america-flag-background_23-2148157263.jpg?t=st=1738157917~exp=1738161517~hmac=4c4032e97196db72710ecbb092e1d31639a7b9c2f3dcfb7c55cc6d1d54690899&w=900"
+              src="https://img.freepik.com/free-photo/united-states-america-flag-background_23-2148157263.jpg?t=st=1738157917~exp=1 738161517~hmac=4c4032e97196db72710ecbb092e1d31639a7b9c2f3dcfb7c55cc6d1d54690899&w=900"
               alt="flag of usa"
             />
             <select>

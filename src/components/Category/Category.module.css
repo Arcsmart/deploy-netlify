@@ -33,12 +33,12 @@ margin-bottom: 20px !important;
 .category_container{
   position: relative;
   margin-top:-205px;
-  display: grid;
-  place-items:center;
-  grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); 
-  gap: 10px;
-  max-width: 1600px !important;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: -240px;
+    display: grid;
+    place-items:center;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); 
+    gap: 10px;
+    max-width: 1600px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -240px;
   }

@@ -13,7 +13,7 @@ const Auth = () => {
   const [{ user }, dispatch] = useContext(DataContext);
   console.log(user);
   const naviget=useNavigate()
-  const useStateData=useLocation()
+  const useStateData = useLocation()
   // console.log(useStateData)
 
   const [email,setEmail]=useState("")
